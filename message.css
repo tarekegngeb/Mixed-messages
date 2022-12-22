@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#random {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+#messages {
+    background-color: brown;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+#name {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 20px;
+    
+}
+body {
+    
+    /* background-image: url('./images/img.jpeg'); */
+    background-repeat: no-repeat;
+    background-color: lightgoldenrodyellow;
+    background-position: bottom;
+
+    
+}
+.randomMessage {
+    border: 1px rgb(200, 196, 188) solid;
+    width: 500px;
+    max-height: 800px;
+    margin: auto;
+    background-color: rgb(230, 230, 237);
+    margin-top: 20px;
+}
+.message p {
+    padding: 20px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+}
+.color p {
+    padding-left: 20px;
+    color: black;
+}
+.random p {
+    font-size: large;
+    font-weight: bold;
+}
+.messages {
+    box-shadow: black;
+    padding-left: 20px;
+    
+}
+.name {
+    text-align: center;
+    padding: 20px;
+}
+#image {
+    max-height: 800px;
+    max-width: 500px;
+}
+
+
